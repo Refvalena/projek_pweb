@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+ 
+</style>
+</head>
+<body>
+    
+
+  <div class="container" role="main" aria-label="Portfolio container">
+    <header>
+      <h1 id="logo">Refva Lena</h1>
+      <nav aria-label="Primary navigation">
+        <a href="#about" class="nav-link active" aria-current="page">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="hero" aria-label="Welcome section">
+        <br/><h2>Halo, selamat datang!</h2>
+        <div class="skills-list" role="list" aria-label="List of skills">
+            <span class="skill-pill" role="listitem">    
+            <p>Portofolio ini berisi beberapa proyek dan eksperimen yang saya kerjakan sebagai bagian dari perjalanan belajar dan eksplorasi saya di dunia teknologi.
+            Silakan jelajahi, dan terima kasih sudah berkunjung!</p>
+            </span>
+      </section>
+
+      <section id="about" aria-label="About me section">
+        <h2>About Me</h2>
+        <div class="about">
+          <img src="repaa2.jpg" alt="Photo of Refva Lena" />
+          <div class="about-text">
+            <div class="skills-list" role="list" aria-label="List of skills">
+                <span class="skill-pill" role="listitem">
+    
+      
+            
+                    <p>Saya Refva Lena, mahasiswa Informatika di Universitas Ahmad Dahlan. Saya suka belajar hal-hal baru seputar teknologi, khususnya di bidang pengembangan web.
+                        Saya sedang dalam proses mengembangkan skill saya melalui berbagai proyek kecil dan tugas kuliah. Tujuan saya sederhana: terus belajar, mencoba, dan berkembang jadi lebih baik di dunia IT.</p>
+           </span>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" aria-label="Skills section">
+        <h2>Skills</h2>
+        <div class="skills-list" role="list" aria-label="List of skills">
+          <span class="skill-pill" role="listitem">Hard Skills: 
+            <ul>
+                <li>Bahasa pemrograman (C, C++, HTML, CSS, JavaScript, dll.)</li>
+                <li>Tools (VS Code, GitHub,dll.)</li>
+          </span> </div><br/>
+          <div class="skills-list" role="list" aria-label="List of skills">
+          <span class="skill-pill" role="listitem">Soft Skills:
+            <ul>
+                <li>Kerja Sama Tim</li>
+                <li>Ketekunan dan Konsistensi</li>
+                <li>Kecerdasan Emosional (EQ)</li>
+                <li>Kemampuan Beradaptasi</li>
+                <li>Manajemen Waktu</li>
+
+          </span>
+         
+        
+        </div>
+      </section><br/><br>
+      <section id="projects" aria-label="Projects section">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-card" tabindex="0" role="button" aria-pressed="false" onclick="openLink('https://github.com/Refvalena/-TP-DSK2025/blob/main/TP_DSK_aplikasi_pemesanan_roti_bakar_refvalena2400018113.asm')">
+            <div class="project-title">Aplikasi Pemesanan Roti Bakar</div>
+            <div class="project-description">Program ini dirancang untuk mengelola pemesanan menu makanan pada aplikasi sederhana berbasis teks, di mana pengguna dapat menginputkan data diri seperti nama dan nomor telepon, memilih rasa roti bakar, dan melihat total harga yang harus dibayar.</div>
+          </div>
+          <div class="project-card" tabindex="0" role="button" aria-pressed="false" onclick="openLink('https://github.com/Refvalena/TA-DDP/blob/main/kasir%20%20warteq.cpp')">
+            <div class="project-title">Kasir Warteq</div>
+            <div class="project-description">Program ini adalah aplikasi kasir sederhana untuk Warung Makan (WARTEQ PADANG). Program menampilkan daftar menu makanan, memungkinkan pengguna memilih dan memesan beberapa item, menghitung total harga, menerima pembayaran, menghitung kembalian, dan mencetak struk pembelian ke file struk.txt.</div>
+          </div>
+          <div class="project-card" tabindex="0" role="button" aria-pressed="false" onclick="openLink('https://github.com/Refvalena/Tugas-DDP')">
+            <div class="project-title">Tugas Dasar Dasar pemrograman</div>
+            <div class="project-description">Berisi kumpulan tugas mata kuliah Dasar-Dasar Pemrograman yang saya kerjakan selama perkuliahan di Program Studi Informatika, Universitas Ahmad Dahlan.
+                Semua tugas ditulis menggunakan bahasa pemrograman C dan C++, mencakup berbagai materi dasar seperti:
+                <ul>
+                    <li>Struktur dasar program</li>
+                    <li>looping</li>
+                    <li>Array 1 dimensi dan 2 dimensi</li>
+                    <li>Fungsi</li>
+                    <li>Pointer</li>
+                    <li>Rekursi</li>
+                    <li>operator</li>
+                    <li>Kondisional</li>
+                    <li>struct</li>
+                    <li>dan lain lainya.</li>
+
+
+                  </ul>  </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="section-title">Contact Me</h2>
+        <p>Jika Anda ingin berdiskusi, berkolaborasi, atau sekadar menjalin komunikasi, saya dengan senang hati terbuka untuk terhubung.</p>
+        <br/><p>  
+          <a href="mailto:2400018113@webmail.uad.ac.id" class="contact-link" aria-label="Send email to Refva Lena" target="_blank" rel="noopener">Email</a>
+          <a href="https://www.instagram.com/cheerrefaa/" class="contact-link" aria-label="Call Refva Lena" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://github.com/Refvalena" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+        </p>
+      </section>
+    </main>
+    <footer>
+        <p>© 2025 Refva Lena. All rights reserved.</p>
+        <p>Made with 💖</p>
+      </footer>
+      
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
